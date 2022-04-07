@@ -1,0 +1,77 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "PythOS",
+      "provenance": [],
+      "collapsed_sections": [],
+      "authorship_tag": "ABX9TyNdTaE1VxsPnkkjlcsc0sq4"
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "RHsq_DYuAWeI",
+        "outputId": "e3a1d43b-c847-4d8e-b6e3-97ceeb6dc60a"
+      },
+      "source": [
+        "import os\n",
+        "print(\"PythOS\")\n",
+        "name = input(\"Username: \")\n",
+        "pas = input(\"Password: \")\n",
+        "print(\"Welcome,\", name)\n",
+        "if os.name == \"nt\":\n",
+        "    _ = os.system('cls')\n",
+        "else:\n",
+        "    _ = os.system('clear')\n",
+        "def commanddotcom(directory):\n",
+        "  print(directory, \">\")\n",
+        "  command = input()\n",
+        "  if command == \"dogtarune\":\n",
+        "    print('dogtarune is too big for PythOS, sorry')\n",
+        "  if command == \"quit\":\n",
+        "    exit()\n",
+        "  commanddotcom(\"C:\")\n",
+        "commanddotcom(\"C:\")"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "metadata": {
+            "tags": null
+          },
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "PythOS\n",
+            "Welcome, \n",
+            "C: >\n",
+            "C: >\n",
+            "C: >\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "PythOS up there"
+      ],
+      "metadata": {
+        "id": "yEE0lvE5yaEF"
+      }
+    }
+  ]
+}
