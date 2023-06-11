@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @TheMasterCoders
-- 👀 I’m interested in: CodingQ
-- 🌱 I’m currently learning: How to code in C, C+, C++, C#.
-- 📫 How to get help: Just say Hey! I Need Help! on my profile page.
+- 👀 I’m interested in: Console Homebrewing/Jailbreaking
+- 🌱 I’m currently learning: I have no idea
+- 📫 How to get help: I have no idea
 
 <!---
 TheMasterCoders/TheMasterCoders is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
